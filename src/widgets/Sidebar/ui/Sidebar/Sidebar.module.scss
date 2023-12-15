@@ -3,12 +3,9 @@
 
 	height: calc(100vh - var(--navbar-height));
 	flex-basis: var(--sidebar-width);
-
 	background-color: var(--inverted-bg-color);
-
 	position: relative;
 	overflow: hidden;
-
 	transition: flex-basis 0.3s;
 }
 
@@ -18,11 +15,9 @@
 
 .switchers {
 	width: 100%;
-
 	display: flex;
 	justify-content: center;
 	gap: 20px;
-
 	position: absolute;
 	bottom: 20px;
 }
